@@ -7,7 +7,7 @@ from datetime import date
 load_dotenv(dotenv_path="./.env")
 
 API_KEY=os.getenv("API_KEY")
-CHANNEL_HANDLER="MrBeast"
+CHANNEL_HANDLER=os.getenv("CHANNEL_HANDLER")
 
 max_results=50
 
